@@ -1,0 +1,12 @@
+//aca se debe estar dentro de la carpeta taller2/Hilos
+cd C:\Users\lenovo\OneDrive\Desktop\taller2\Hilos
+
+//compilamos incluyendo libreria jar
+javac -cp "lib/jl1.0.1.jar" Pincipal.java Ventana.java Hilo1.java Hilo2.java Hilo3.java
+
+//parado dentro de la carpeta hilos por que sino no encuentra los archivos .mp3 y .txt ejecutamos la aplicacion
+java -cp  lib/jl1.0.1.jar;C:\Users\lenovo\OneDrive\Desktop\taller2 Hilos.Pincipal
+
+
+
+
